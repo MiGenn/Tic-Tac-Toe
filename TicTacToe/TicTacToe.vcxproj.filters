@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{6ac125f8-6214-4648-ab57-0c7527df6b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{f443b7f1-b8d4-4f34-adba-9a360e733230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{d0e2289c-3e96-4be0-9abd-0a755bd151d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{34d82e52-817b-4864-9aae-7db96e0d8e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Basic Types">
+      <UniqueIdentifier>{66305c72-5a5a-4b92-ad72-29c86b3ba70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Basic Types">
+      <UniqueIdentifier>{9f4630ce-767b-4634-881d-38444066a6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Input">
+      <UniqueIdentifier>{acf8dc97-7192-4b23-854e-68361cd091b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Input">
+      <UniqueIdentifier>{8e225be8-78e4-46b2-97d9-29e1732c7263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Event">
+      <UniqueIdentifier>{8a2e78cf-f3a5-45ad-9fce-9a7f2d3cc185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Utilities">
+      <UniqueIdentifier>{5fe14762-9334-46ea-848c-c6722e0d283c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Utilities\Generic">
+      <UniqueIdentifier>{52b94ade-5086-4203-9956-0211c39c4636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Utilities\Winapi">
+      <UniqueIdentifier>{eca09247-39ac-4490-bc39-cacefdee5532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Graphics">
+      <UniqueIdentifier>{ac47be03-2205-447d-8c68-08748fdae3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Graphics\Text">
+      <UniqueIdentifier>{f1c3d127-d0bb-48e7-afe3-61d57d6f0cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Utilities">
+      <UniqueIdentifier>{bb31b594-356b-438d-94db-5d03a30f7db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Utilities\Winapi">
+      <UniqueIdentifier>{4fdca962-31ff-440c-9d2b-7b36b122151d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Utilities\Generic">
+      <UniqueIdentifier>{ebee1f06-827c-4905-8a67-e6007da88087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Graphics">
+      <UniqueIdentifier>{e5f01e08-97af-4738-8fe5-13965916ab39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Graphics\Text">
+      <UniqueIdentifier>{1946f3db-572b-4db7-a167-9a881789e951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Base Game Application">
+      <UniqueIdentifier>{c7f18dad-531a-4ea7-bd3a-444444a7d3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Base Scripting">
+      <UniqueIdentifier>{f404af6b-eccd-4f3e-bcfc-913df4090227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Graphics\Camera">
+      <UniqueIdentifier>{78ad341f-9512-43c4-8d41-d1d76499d472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Graphics\Camera">
+      <UniqueIdentifier>{93e775ad-b0c5-4ffd-9237-aad8c32fceb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Base Scripting">
+      <UniqueIdentifier>{7b28811c-1b4c-4f53-b031-b03b8df6394f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Game Window">
+      <UniqueIdentifier>{8fa26626-338f-4365-b894-a1d0548c9ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Game Window">
+      <UniqueIdentifier>{a7c15050-fbbb-4b30-9872-becad5bbd1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Base Game Application">
+      <UniqueIdentifier>{70d4d3de-368c-4876-bd20-508a6ee22fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WinAPI Base">
+      <UniqueIdentifier>{a72767d9-0d77-41f9-9911-3471f6293d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WinAPI Base\Exception">
+      <UniqueIdentifier>{5053ce44-379d-4a3d-a762-d0d12b85ee40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WinAPI Base\Base Window">
+      <UniqueIdentifier>{2c7a333a-f9ea-4c2c-9df3-24a5e043f406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinAPI Base">
+      <UniqueIdentifier>{da2d95f6-3e41-4d93-a26f-9ff7b9916126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinAPI Base\Base Window">
+      <UniqueIdentifier>{5fa9429e-cf51-4c51-99bb-117b0825f88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinAPI Base\Exception">
+      <UniqueIdentifier>{496542ca-1a00-47cf-a672-0ae2cadb7b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Domain">
+      <UniqueIdentifier>{9e6fe25d-958c-438c-a00d-259be8972506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Domain\Fields">
+      <UniqueIdentifier>{99ac51bd-d36a-4e31-8972-197c456b9b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Domain">
+      <UniqueIdentifier>{abdf553e-b33e-457f-96d4-1c2c71aabee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Domain\Fields">
+      <UniqueIdentifier>{eebb4c75-22bf-4f3a-971f-b51fd9bfdf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other">
+      <UniqueIdentifier>{d351c884-8b21-47be-b7b0-993a02573a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Player Non-Game Data">
+      <UniqueIdentifier>{5ac44e19-d8d4-4d9d-83a5-bfc4d68d7bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Rendering">
+      <UniqueIdentifier>{f553a6f9-b755-44f3-88f7-a2b88c628ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Scripting">
+      <UniqueIdentifier>{f78ba73e-c5f8-48b4-a8e2-ab22b2128a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Session Info Saver">
+      <UniqueIdentifier>{1316c54e-c81c-480b-852a-3cd1556ee7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Tic-Tac-Toe Application">
+      <UniqueIdentifier>{f3b95bae-010c-4513-b166-b20dc5855fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Utilities">
+      <UniqueIdentifier>{b8b5b255-49d7-4496-8905-d3c455b29cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Other\Configuration Window">
+      <UniqueIdentifier>{ae1642da-a9e1-4bfd-afaa-2897b9b497bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other">
+      <UniqueIdentifier>{bf10d768-d541-49bc-a159-0de3bc4f766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Configuration Window">
+      <UniqueIdentifier>{403d3db3-78be-4cd1-9d41-bb8d0cb126ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Player Non-Game Data">
+      <UniqueIdentifier>{3b9d7aa3-2730-4e85-a050-c6dc394d94cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Rendering">
+      <UniqueIdentifier>{a887b077-6af3-4e95-bd95-cd7be2b722c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Resource Macros">
+      <UniqueIdentifier>{6acf1c70-65a3-41ac-8512-7fada2bd41fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Scripting">
+      <UniqueIdentifier>{305d6ec9-0e32-47db-a429-0866fef8e454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Session Info Saver">
+      <UniqueIdentifier>{8037d1cb-cd5a-455b-b8b7-bee89f57400f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Tic-Tac-Toe Application">
+      <UniqueIdentifier>{5eac1171-7bef-482f-b4ce-2e8b9c2974cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Utilities">
+      <UniqueIdentifier>{b3496609-d336-4052-b1a6-1613d038b5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Other\Utilities\Winapi">
+      <UniqueIdentifier>{12f40de2-d730-4a2d-a37c-2b7fe3daa702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Domain\Fields\Interfaces">
+      <UniqueIdentifier>{36f440b0-bfdf-427c-8025-2778ab201453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="WinapiException.cpp">
+      <Filter>Source Files\WinAPI Base\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\WinAPI Base\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowClass.cpp">
+      <Filter>Source Files\WinAPI Base\Base Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\WinAPI Base\Base Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files\Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files\Game\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryDC.cpp">
+      <Filter>Source Files\Framework\Utilities\Winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="WinapiUtilities.cpp">
+      <Filter>Source Files\Framework\Utilities\Winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowDC.cpp">
+      <Filter>Source Files\Framework\Utilities\Winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Source Files\Game\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeUtilities.cpp">
+      <Filter>Source Files\Framework\Utilities\Winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericUtilities.cpp">
+      <Filter>Source Files\Framework\Utilities\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationChecker.cpp">
+      <Filter>Source Files\Game\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteField.cpp">
+      <Filter>Source Files\Game\Domain\Fields</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRGB.cpp">
+      <Filter>Source Files\Framework\Basic Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Framework\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Framework\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFormat.cpp">
+      <Filter>Source Files\Framework\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionInfoSaver.cpp">
+      <Filter>Source Files\Game\Other\Session Info Saver</Filter>
+    </ClCompile>
+    <ClCompile Include="PathUtilities.cpp">
+      <Filter>Source Files\Framework\Utilities\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnInfoRenderer.cpp">
+      <Filter>Source Files\Game\Other\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="FiguresRenderer.cpp">
+      <Filter>Source Files\Game\Other\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldRenderer.cpp">
+      <Filter>Source Files\Game\Other\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMoverScript.cpp">
+      <Filter>Source Files\Game\Other\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraZoomerScript.cpp">
+      <Filter>Source Files\Game\Other\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="FigurePlacerScript.cpp">
+      <Filter>Source Files\Game\Other\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundRenderer.cpp">
+      <Filter>Source Files\Game\Other\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Source Files\Framework\Base Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Framework\Base Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>Source Files\Game\Other\Tic-Tac-Toe Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationWindow.cpp">
+      <Filter>Source Files\Game\Other\Configuration Window</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files\Framework\Game Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Framework\Base Game Application</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNonGameData.cpp">
+      <Filter>Source Files\Game\Other\Player Non-Game Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtilities.cpp">
+      <Filter>Source Files\Game\Other\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\WinAPI Base\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="WinapiException.h">
+      <Filter>Header Files\WinAPI Base\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Header Files\Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Game\Other\Resource Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Framework\Basic Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files\Game\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Header Files\Game\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Concepts.h">
+      <Filter>Header Files\Framework\Utilities\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="WinapiUtilities.h">
+      <Filter>Header Files\Framework\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowDC.h">
+      <Filter>Header Files\Framework\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryDC.h">
+      <Filter>Header Files\Framework\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionWrapper.h">
+      <Filter>Header Files\Framework\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueHGDIOBJ.h">
+      <Filter>Header Files\Framework\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D.h">
+      <Filter>Header Files\Framework\Basic Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeUtilities.h">
+      <Filter>Header Files\Framework\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericUtilities.h">
+      <Filter>Header Files\Framework\Utilities\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationChecker.h">
+      <Filter>Header Files\Game\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="IField.h">
+      <Filter>Header Files\Game\Domain\Fields\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Framework\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Framework\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRGB.h">
+      <Filter>Header Files\Framework\Basic Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFormat.h">
+      <Filter>Header Files\Framework\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="PathUtilities.h">
+      <Filter>Header Files\Framework\Utilities\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionInfoSaver.h">
+      <Filter>Header Files\Game\Other\Session Info Saver</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationWindow.h">
+      <Filter>Header Files\Game\Other\Configuration Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Framework\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventRaiser.h">
+      <Filter>Header Files\Framework\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnInfoRenderer.h">
+      <Filter>Header Files\Game\Other\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="FiguresRenderer.h">
+      <Filter>Header Files\Game\Other\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldRenderer.h">
+      <Filter>Header Files\Game\Other\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundRenderer.h">
+      <Filter>Header Files\Game\Other\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="FigurePlacerScript.h">
+      <Filter>Header Files\Game\Other\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldMoverScript.h">
+      <Filter>Header Files\Game\Other\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraZoomerScript.h">
+      <Filter>Header Files\Game\Other\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Framework\Base Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Header Files\Framework\Base Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Header Files\Game\Other\Tic-Tac-Toe Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files\Framework\Game Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowClass.h">
+      <Filter>Header Files\WinAPI Base\Base Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\WinAPI Base\Base Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Framework\Base Game Application</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNonGameData.h">
+      <Filter>Header Files\Game\Other\Player Non-Game Data</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtilities.h">
+      <Filter>Header Files\Game\Other\Utilities\Winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteField.h">
+      <Filter>Header Files\Game\Domain\Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderableField.h">
+      <Filter>Header Files\Game\Domain\Fields\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TicTacToe.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="TicTacToe.exe.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>
